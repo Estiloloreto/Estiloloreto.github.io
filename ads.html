@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EstiloLoreto - Nuestros Anuncios</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffaf2;
+      color: #333;
+    }
+
+    header {
+      background-color: #f25c54;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 20px;
+    }
+
+    .ads-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .ad-frame {
+      background-color: white;
+      border: 8px solid #000;
+      border-radius: 4px;
+      padding: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      width: 300px;
+      transition: transform 0.3s ease;
+    }
+
+    .ad-frame:hover {
+      transform: scale(1.05);
+    }
+
+    .ad-frame img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      display: block;
+    }
+
+    .ad-frame .ad-title {
+      text-align: center;
+      margin-top: 10px;
+      font-weight: 600;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    footer a {
+      color: #f25c54;
+      text-decoration: none;
+    }
+    
+    .back-button {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #f25c54;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 600;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    
+    .back-button:hover {
+      background-color: #e04a42;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>EstiloLoreto</h1>
+  <nav>
+    <a href="index.html#inicio">Inicio</a>
+    <a href="index.html#productos">Productos</a>
+    <a href="index.html#contacto">Contacto</a>
+    <a href="ads.html">Anuncios</a>
+  </nav>
+</header>
+
+<div class="container">
+  <section>
+    <h2>Nuestros Anuncios</h2>
+    <p>Aquí puedes ver nuestra colección de anuncios y campañas publicitarias para nuestros productos artesanales.</p>
+    
+    <div class="ads-gallery">
+      <div class="ad-frame">
+        <img src="ads/1.jpg" alt="Anuncio 1">
+        <div class="ad-title">Campaña Verano 2024</div>
+      </div>
+      
+      <div class="ad-frame">
+        <img src="ads/2.jpg" alt="Anuncio 2">
+        <div class="ad-title">Edición Especial Loreto</div>
+      </div>
+      
+      <div class="ad-frame">
+        <img src="ads/3.jpg" alt="Anuncio 3">
+        <div class="ad-title">Colección Primavera</div>
+      </div>
+      
+      <div class="ad-frame">
+        <img src="ads/4.jpg" alt="Anuncio 4">
+        <div class="ad-title">Diseños Exclusivos</div>
+      </div>
+      
+      <div class="ad-frame">
+        <img src="ads/5.jpg" alt="Anuncio 5">
+        <div class="ad-title">Artesanía Mexicana</div>
+      </div>
+      
+      <div class="ad-frame">
+        <img src="ads/6.jpg" alt="Anuncio 6">
+        <div class="ad-title">Edición Limitada</div>
+      </div>
+      
+      <div class="ad-frame">
+        <img src="ads/7.jpg" alt="Anuncio 7">
+        <div class="ad-title">Bolsos de Playa</div>
+      </div>
+      
+      <div class="ad-frame">
+        <img src="ads/8.jpg" alt="Anuncio 8">
+        <div class="ad-title">Promoción Especial</div>
+      </div>
+      
+      <div class="ad-frame">
+        <img src="ads/Diseño sin título (5).png" alt="Diseño Especial">
+        <div class="ad-title">Nuevo Diseño</div>
+      </div>
+    </div>
+    
+    <div style="text-align: center; margin-top: 30px;">
+      <a href="index.html" class="back-button">Volver a la Página Principal</a>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2025 EstiloLoreto | Hecho con ❤ en Loreto, BCS.</p>
+  <p><a href="#">Política de Privacidad</a> | <a href="#">Términos y Condiciones</a></p>
+</footer>
+
+<script>
+  // JavaScript para efectos adicionales si se requieren
+</script>
+
+</body>
+</html> 
