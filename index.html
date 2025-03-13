@@ -63,6 +63,7 @@
       width: 100%;
       height: 200px;
       object-fit: cover;
+      border: 5px solid #000;
     }
 
     .producto-info {
@@ -80,6 +81,30 @@
     footer a {
       color: #f25c54;
       text-decoration: none;
+    }
+
+    .photo-frame {
+      background-color: white;
+      border: 8px solid #000;
+      border-radius: 4px;
+      padding: 5px;
+      margin: 15px;
+      display: inline-block;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .photo-frame img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
     }
   </style>
 </head>
@@ -106,10 +131,10 @@
     <div class="productos">
 
       <div class="producto">
-        <img src="https://via.placeholder.com/250x200?text=Bolso+1" alt="Bolso Artesanal 1">
+        <img src="./img/bolso-artesanal.jpg" alt="Bolso Artesanal 1">
         <div class="producto-info">
           <h3>Bolso "La Mexicana"</h3>
-          <p>Hermoso bolso con colores vibrantes inspirado en las tradiciones de México.</p>
+          <p>Hermoso bolso con colores vibrantes inspirado en las tradiciones de México.</p>
           <p><strong>$850 MXN</strong></p>
         </div>
       </div>
@@ -132,6 +157,22 @@
         </div>
       </div>
 
+    </div>
+    
+    <h3 style="text-align: center; margin-top: 40px;">Galería de Fotos</h3>
+    <div class="gallery">
+      <div class="photo-frame">
+        <img src="./img/bolso-artesanal.jpg" alt="Bolso Artesanal - Detalle">
+      </div>
+      <div class="photo-frame">
+        <img src="https://via.placeholder.com/300x300?text=Foto+Próximamente" alt="Espacio para foto">
+      </div>
+      <div class="photo-frame">
+        <img src="https://via.placeholder.com/300x300?text=Foto+Próximamente" alt="Espacio para foto">
+      </div>
+      <div class="photo-frame">
+        <img src="https://via.placeholder.com/300x300?text=Foto+Próximamente" alt="Espacio para foto">
+      </div>
     </div>
   </section>
 
